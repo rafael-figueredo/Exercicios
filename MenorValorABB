@@ -1,0 +1,16 @@
+Parv MenorValor(PArv a){
+    if (a == NULL){
+        return NULL;
+    }
+    
+    if(a->esq == NULL){
+        return a;
+    }
+
+    return MenorValor(a->esq);
+
+}
+
+void showmenor(PArv a, int v){
+    
+}
